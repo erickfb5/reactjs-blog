@@ -1,0 +1,27 @@
+
+.PostCount, .Footer {
+  width: var(--width);
+  background-color: var(--header-bg-color);
+  padding: var(--padding);
+  display: var(--flex);
+  justify-content: space-between;
+  align-items: var(--center);
+}
+
+
+.PostCount {
+  padding: var(--padding-medium);
+  display: grid;
+  place-content: var(--center);
+  background-color: #eee;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.Footer {
+  display: grid;
+  place-content: var(--center);
+  background-color: var(--ivory-black);
+  padding: var(--medium-size);
+  color: var(--gold-leaf);
+}

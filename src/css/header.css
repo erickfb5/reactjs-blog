@@ -1,0 +1,66 @@
+.Header {
+  width: var(--width);
+  background-color: var(--header-bg-color);
+  padding: var(--padding);
+  display: var(--flex);
+  justify-content: space-between;
+  align-items: var(--center);
+}
+
+.Header h1 {
+  font-size: 1.5rem;
+}
+
+.Header svg {
+  font-size: var(--x-large-size);
+}
+
+.current-time {
+  width: 100%;
+  font-size: 0.55rem;
+  margin-left: 5px;
+  font-weight: bolder;
+}
+
+.log-in-icon {
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+.logged-in {
+  background-color: whitesmoke;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 10px;
+  color: var(--ivory-black);
+  font-size: 0.75rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.logged-in strong {
+  text-decoration: underline;
+  color: var(--blue);
+}
+.logged-out {
+  background-color: whitesmoke;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 10px;
+  color: var(--ivory-black);
+  font-size: 0.75rem;
+}
+.logged-out a {
+  font-weight: bolder;
+  text-decoration: underline;
+  color: var(--blue);
+}
+
+
+
+@media only screen and (min-width: 992px) {
+  .Header svg {
+    font-size: 3rem;
+  }
+}

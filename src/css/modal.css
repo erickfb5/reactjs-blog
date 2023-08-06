@@ -1,0 +1,26 @@
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.modal-buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-transform: uppercase; */
+  border-radius: 10px;
+  color: whitesmoke;
+  padding: 5px;
+  font-size: 0.85rem;
+  margin-right: 5px;
+  width: 90px;
+  height: 48px;
+  font-weight: bolder;
+  border: var(--none);
+  cursor: pointer;
+}
+
+.modal-buttons button:hover,
+.modal-buttons button:focus {
+  opacity: 0.8;
+  scale: 0.95;
+}

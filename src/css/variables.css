@@ -1,0 +1,24 @@
+:root {
+    /* VARIABLES */
+    --body-bg-color: var(--white);
+    --header-bg-color: var(--paper);
+  
+    --zero: 0;
+    --tiny-size: 0.25rem;
+    --small-size: 0.5rem;
+    --medium-size: 0.75rem;
+    --normal-size: 1rem;
+    --x-large-size: 2rem;
+  
+    --border-radius: var(--tiny-size);
+    --padding-small: var(--tiny-size);
+    --padding-medium: var(--medium-size);
+    --padding: var(--normal-size);
+    --width: 100%;
+    --height: 48px;
+    --rem: 1rem;
+    --flex: flex;
+    --center: center;
+    --column: column;
+    --none: none;
+  }

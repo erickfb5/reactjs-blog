@@ -1,0 +1,76 @@
+.post {
+  margin-top: var(--normal-size);
+  padding: 0.25rem 0.25rem 0.5rem 0.5rem;
+  border-bottom: 1px solid lightgray;
+  background-color: #eee;
+  color: var(--ivory-black);
+}
+
+.post .created-at {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-size: 0.65rem;
+  padding-right: 5px;
+}
+
+.post .liked-post {
+  color: var(--gold-leaf);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.fa-user-circle {
+  padding: 3px 5px 0 0;
+}
+
+.fa-eraser {
+  padding-right: 4px;
+  color: rgba(59, 58, 57, 0.25);
+}
+.fa-clock {
+  padding-right: 4px;
+  color: var(--ivory-black);
+}
+
+.post a {
+  text-decoration: var(--none);
+}
+
+.post a,
+.post h2,
+.post a:visited {
+  color: var(--ivory-black);
+}
+
+.post .created-by {
+  display: flex;
+  color: var(--prussian-blue);
+  justify-content: flex-end;
+  padding-right: 5px;
+  font-weight: bolder;
+}
+
+.post:first-child {
+  margin-top: var(--zero);
+}
+
+.post:last-child {
+  border-bottom: var(--none);
+}
+
+.created-by {
+  font-size: var(--medium-size);
+  margin-top: var(--tiny-size);
+}
+
+.postTitle {
+  word-wrap: break-word;
+  /* word-break: break-all; */
+}
+.postText {
+  margin: var(--normal-size) var(--zero);
+  word-wrap: break-word;
+  /* word-break: break-all; */
+}
+

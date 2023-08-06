@@ -1,0 +1,30 @@
+
+/* .Users {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  align-items: center;
+} */
+
+.users-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; */
+}
+
+.user-item {
+  overflow: hidden;
+  font-size: .75rem;
+  display: flex;
+  justify-content: center;
+  min-width: 20%;
+  min-height: 20%;
+  padding: 10px;
+  margin: 20px;
+  background-color: var(--ivory-black);
+  color: var(--gold-leaf);
+  border-radius: 15px;
+}

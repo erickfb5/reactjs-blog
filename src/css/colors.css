@@ -1,0 +1,21 @@
+:root {
+  /* COLOR SCHEMES https://www.canva.com/learn/website-color-schemes/ */
+
+  /* #44 */
+  --pale-gold: #c0b283;
+  --silk: #dcd0c0;
+  --paper: #f4f4f4;
+  --charcoal: #373737;
+  /*  */
+
+  /* #11 */
+  --prussian-blue: #0b3c5d;
+  --sky-blue: #328cc1;
+  --gold-leaf: #d9b310;
+  --ivory-black: #1d2731;
+  /*  */
+
+  --white: #fff;
+  --red: rgb(253, 71, 71);
+  --blue: #0069d9;
+}

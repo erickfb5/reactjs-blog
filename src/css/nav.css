@@ -1,0 +1,102 @@
+.Nav {
+  width: var(--width);
+  background-color: var(--ivory-black);
+  display: var(--flex);
+  flex-direction: var(--column);
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Nav ul {
+  list-style-type: var(--none);
+  display: var(--flex);
+  flex-wrap: nowrap;
+  align-items: var(--center);
+}
+
+.Nav li {
+  padding: var(--padding);
+}
+
+.Nav li:hover,
+.Nav li:focus {
+  padding: var(--padding);
+}
+
+.Nav a {
+  color: var(--paper);
+  text-decoration: var(--none);
+}
+
+.Nav li:hover,
+.Nav li:focus,
+.Nav li:hover,
+.Nav li:focus {
+  background-color: #eee;
+  color: #333;
+}
+
+.Nav li:hover,
+.Nav li:focus {
+  cursor: pointer;
+}
+
+.Nav li:hover a,
+.Nav li:focus a {
+  background-color: magenta;
+}
+
+.searchForm .input-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 0;
+}
+
+.searchForm .input-wrapper svg {
+  padding-right: 10px;
+}
+
+.searchForm {
+  width: 80%;
+  padding: var(--normal-size) var(--zero) var(--zero) var(--medium-size);
+}
+
+.searchForm input[type="text"] {
+  background-color: var(--ivory-black);
+  color: var(--prussian-blue);
+  width: var(--width);
+  min-height: var(--height);
+  font-family: "Open Sans", sans-serif;
+  font-size: var(--large-size);
+  font-size: 40px;
+  font-weight: 900;
+  padding: var(--padding-small);
+  border: none;
+  outline: var(--none);
+}
+
+.searchForm input[type="text"]::placeholder {
+  font-weight: normal;
+  color: #eeeeee3b;
+}
+
+.searchForm label {
+  position: absolute;
+  left: -99999px;
+}
+
+#search {
+  color: var(--gold-leaf);
+}
+.clear-search {
+  font-size: 1.25rem;
+  color: var(--gold-leaf);
+}
+.clear-search:hover,
+.clear-search svg:focus {
+  cursor: pointer;
+  scale: 1.3;
+  color: var(--red);
+}

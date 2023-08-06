@@ -1,0 +1,47 @@
+textarea {
+  resize: var(--none);
+}
+
+.newPostForm {
+  display: var(--flex);
+  flex-direction: var(--column);
+}
+
+.newPostForm label {
+  margin-top: var(--normal-size);
+}
+
+.newPostForm input[type="text"],
+.newPostForm textarea {
+  font-family: "Open Sans", sans-serif;
+  width: var(--width);
+  min-height: var(--height);
+  font-size: var(--normal-size);
+  padding: var(--padding-small);
+  border-radius: var(--border-radius);
+  margin-right: var(--tiny-size);
+  outline: var(--none);
+}
+
+.newPostForm textarea {
+  height: 100px;
+}
+
+.NewPost button {
+  min-width: var(--height);
+  width: 100%;
+  border-radius: 3px;
+  background-color: var(--prussian-blue);
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: var(--normal-size);
+  border: none;
+  border-radius: 10px;
+  padding: var(--padding-medium);
+  cursor: pointer;
+}
+
+.NewPost button:hover,
+.NewPost button:focus {
+  background-color: var(--blue);
+}

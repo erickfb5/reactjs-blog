@@ -1,0 +1,70 @@
+.PostPage .postDate {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    font-size: .75rem;
+    font-weight: bolder;
+    color: var(--prussian-blue);
+  }
+  
+  .PostPage .postDate svg{
+    padding-right: 5px;
+  }
+
+  .PostPage button {
+    display: var(--flex);
+    align-items: var(--center);
+    justify-content: var(--center);
+    height: 48px;
+    width: 160px;
+    margin: 5px;
+    border-radius: var(--border-radius);
+    padding: var(--padding-medium);
+    margin-right: var(--small-size);
+    font-size: var(--normal-size);
+    color: var(--white);
+    cursor: pointer;
+  }
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .title-containers-icons {
+    display: flex;
+    height: 100%;
+  }
+  
+  .title-containers-icons svg {
+    padding: 5px;
+    padding-right: 5px;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  .likeIcon {
+    opacity: 0.3;
+  }
+  .likeIcon:hover,
+  .likeIcon:focus {
+    scale: 1.2;
+  }
+  
+  .likedIcon {
+    opacity: 1;
+    color: var(--gold-leaf);
+  }
+  
+  .likedIcon:hover,
+  .likedIcon:focus {
+    scale: 1.2;
+  }
+  
+  .editIcon:hover,
+  .editIcon:focus {
+    color: var(--blue);
+  }
+  .deleteIcon:hover,
+  .deleteIcon:focus {
+    color: var(--red);
+  }

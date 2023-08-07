@@ -128,7 +128,7 @@ body {
 
   .searchForm input[type="text"] {
     font-size: 1rem;
-    z-index: 9999;
+    /* z-index: 9999; */
   }
 
   html {
@@ -209,7 +209,7 @@ body {
 
   .searchForm input[type="text"] {
     font-size: 1.3rem;
-    z-index: 9999;
+    /* z-index: 9999; */
   }
 
   html {
